@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "@apollo/server": "^4.3.2",
+    "@graphql-tools/load-files": "^6.6.1",
+    "@graphql-tools/schema": "^9.0.14",
+    "graphql": "^16.6.0"
+  },
+  "name": "webshopuppgift",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./src/server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
